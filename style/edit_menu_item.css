@@ -1,0 +1,137 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    background-color: #305496;
+    width: auto;
+    height: 60px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+#menu, #cart{
+    float: right;
+    color: #ffffff;
+    font-size: 0.8em;
+    margin-right: 70px;
+    padding-top: 20px;
+}
+
+.single-line{
+    display: inline-block;
+}
+.inner-first{
+    display: block;
+}
+
+form input, select{
+    padding: 8px;
+    border: 1px solid rgb(31, 2, 2);
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input[type='radio'],select{
+    cursor: pointer;
+}
+
+
+.page-title{
+    margin-left: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section{
+    margin-top: 4em;
+    width: auto;
+}
+
+h2{
+    margin-left: 10rem;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: Arial;
+}
+
+
+
+#title-label{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+#title-label label{
+    color: rgba(46, 44, 44, 0.788);
+    margin-bottom: 40em;
+    font-weight: 900;
+}
+
+
+.edit-menu-column{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+
+table, td, th{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    border-collapse: separate;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+
+th{
+    color: rgba(46, 44, 44, 0.788);
+}
+
+#submit{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 10px;
+    cursor: pointer;
+    width: 8em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #305496;
+}
+
+#submit:hover{
+    background-color: rgb(57, 145, 22);;
+}
+
+p{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #BFBFBF;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0px;
+
+}
+.copyright{
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
